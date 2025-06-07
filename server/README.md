@@ -49,13 +49,13 @@ server/
 Create a `.env` file in the `server/` directory:
 
 ```
-PORT=8080
-ENV=development
-DB_ADDR=postgres://admin:adminpassword123@localhost:5434/realtimechatapp?sslmode=disable
-JWT_SECRET=your_jwt_secret
-JWT_ISS=realtimechatapp
-JWT_AUD=realtimechatapp
-JWT_EXP=15m
+PORT=
+ENV=
+DB_ADDR=
+JWT_SECRET=
+JWT_ISS=
+JWT_AUD=
+JWT_EXP=
 ```
 
 ### Database Setup
